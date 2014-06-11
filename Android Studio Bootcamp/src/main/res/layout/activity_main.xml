@@ -44,29 +44,11 @@
         android:fillViewport="false">
 
         <LinearLayout
+            android:id="@+id/gistLinearLayout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
-
-            <include layout="@layout/gist" />
         </LinearLayout>
     </ScrollView>
 
