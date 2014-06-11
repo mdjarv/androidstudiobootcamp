@@ -2,3 +2,5 @@
 /local.properties
 /.idea
 .DS_Store
+build
+nohup.out

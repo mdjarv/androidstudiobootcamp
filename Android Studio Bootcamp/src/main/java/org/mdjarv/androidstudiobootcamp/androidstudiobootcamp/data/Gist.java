@@ -3,22 +3,16 @@ package org.mdjarv.androidstudiobootcamp.androidstudiobootcamp.data;
 import java.util.ArrayList;
 
 public class Gist {
+    private String id;
     private String owner;
     private String description;
     private ArrayList<String> files;
 
     public Gist() {
-        this("", "");
-    }
-
-    public Gist(String owner, String description) {
-        this(owner, description, new ArrayList<String>());
-    }
-
-    public Gist(String owner, String description, ArrayList<String> files) {
-        this.owner = owner;
-        this.description = description;
-        this.files = files;
+        this.id = "";
+        this.owner = "";
+        this.description = "";
+        this.files = new ArrayList<String>();
     }
 
     public ArrayList<String> getFiles() {
@@ -32,6 +26,14 @@ public class Gist {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getOwner() {
