@@ -1,22 +1,17 @@
 package org.mdjarv.androidstudiobootcamp.androidstudiobootcamp.data;
 
-import java.util.ArrayList;
-
 public class Gist {
+    /**
+     * Simple data model for a Gist
+     */
     private String id;
     private String owner;
     private String description;
-    private ArrayList<String> files;
 
     public Gist() {
         this.id = "";
         this.owner = "";
         this.description = "";
-        this.files = new ArrayList<String>();
-    }
-
-    public ArrayList<String> getFiles() {
-        return files;
     }
 
     public String getDescription() {
